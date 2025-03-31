@@ -34,12 +34,13 @@ conda install --file requirements.txt -c conda-forge
 - `library/`: Contains the codebase. Encoding functions, model implementations, and utility functions are available here.
 - `models/`: Contains the trained model weights.
 - `results/`: Contains the output of the hyperparameter tuning, model scores, and permutation analysis.
+-  `reproducibility/`: Contains scripts to reproduce the stages of our study.
 
 ## Examples 
 3 examples are available in the examples folder. You can test encodings and model architectures used in the study. 
 
 - [examples/hp_tuning.py](examples/hp_tuning.py): Running the hyperparameter tuning pipeline and some example hyperparameter spaces. 
-- [examples/evaluation_fixed_encodings.py](examples/evaluation_fixed_encodings.py): Evaluating a pretrained model with fixed encodings (one-hot encoding, BLOSUM62, and handcrafted) on test sets
+- [examples/evaluation_fixed_encodings.py](examples/evaluation_fixed_encoding.py): Evaluating a pretrained model with fixed encodings (one-hot encoding, BLOSUM62, and handcrafted) on test sets
 - [examples/evaluation_embedding.py](examples/evaluation_embedding.py): Evaluating a pretrained model with an embedding layer on test sets
 
 The configurations used in the study are available under `reproducibility/` folder for these scripts.
