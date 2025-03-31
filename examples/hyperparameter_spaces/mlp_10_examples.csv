@@ -1,0 +1,12 @@
+,Unnamed: 0.1,Unnamed: 0,type of activation,n_dense_layers,n_dense_neurons,learning_rate,dropout,fit_batch_size,loss,optimizer,fit_epochs,embedding_vector_length,type_of_model
+0,0,155,relu,2,32,0.005,0.0,128,binary_crossentropy,adam,200,8,ANN
+1,1,107,relu,1,128,0.005,0.25,128,binary_crossentropy,adam,200,16,ANN
+2,2,70,relu,1,64,0.001,0.25,64,binary_crossentropy,adam,200,32,ANN
+3,3,8,relu,1,8,0.01,0.25,128,binary_crossentropy,adam,200,32,ANN
+4,4,172,relu,2,128,0.001,0.0,64,binary_crossentropy,adam,200,32,ANN
+5,5,241,relu,3,8,0.005,0.25,64,binary_crossentropy,adam,200,16,ANN
+6,6,57,relu,1,32,0.01,0.1,32,binary_crossentropy,adam,200,32,ANN
+7,7,298,relu,3,32,0.01,0.0,64,binary_crossentropy,adam,200,32,ANN
+8,8,39,relu,1,64,0.01,0.1,32,binary_crossentropy,adam,200,16,ANN
+9,9,289,relu,3,128,0.05,0.0,64,binary_crossentropy,adam,200,32,ANN
+10,10,280,relu,3,128,0.01,0.0,64,binary_crossentropy,adam,200,32,ANN

@@ -1,0 +1,5 @@
+,Unnamed: 0.1,index,Unnamed: 0,contains_embedding_layer,n_cnn_layers,n_filters,kernel_size,n_dense,dense_layer_size,learning_rate,dropout_rate,fit_batch_size,loss,optimizer,fit_epochs,embedding_vector_length,type_of_model
+0,0,6585,6585,False,4,3,5,2,16,0.005,0.25,32,binary_crossentropy,adam,200,64,cnn
+1,1,4337,4337,False,2,7,9,4,64,0.001,0.25,128,binary_crossentropy,adam,200,64,cnn
+2,2,8741,8741,False,4,7,9,4,256,0.005,0.0,128,binary_crossentropy,adam,200,32,cnn
+3,3,8438,8438,False,4,7,7,4,16,0.001,0.1,128,binary_crossentropy,adam,200,32,cnn

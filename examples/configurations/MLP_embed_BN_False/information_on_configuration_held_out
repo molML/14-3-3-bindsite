@@ -1,0 +1,5 @@
+{
+    "encoding": "{'A': array(1), 'C': array(2), 'D': array(3), 'E': array(4), 'F': array(5), 'G': array(6), 'H': array(7), 'I': array(8), 'K': array(9), 'L': array(10), 'M': array(11), 'N': array(12), 'P': array(13), 'Q': array(14), 'R': array(15), 'S': array(16), 'T': array(17), 'V': array(18), 'W': array(19), 'Y': array(20), 's': array(21), 't': array(22)}",
+    "date": "2025-03-31 13:30:58.155344",
+    "folder_for_configurations": "../examples/configurations/MLP_embed_BN_False"
+}

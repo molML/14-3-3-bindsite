@@ -1,0 +1,5 @@
+* hyperparameter_tuning.py: This script provides the information that you need to reproduce the hyperparameter tuning results. Also the specific hyperparameter spaces are specified in this file. 
+* final_performance_fixed_encodings.py: This script provides the information that you need to run to compute the final performance of the fixed encoding models (one hot encoding, blosum, handcrafted) on the test and held-out set for the best models based on hyperparameter tuning. Also the specific configuration files are specified. 
+* final_performance_embedding.py: This script provides the information that you need to run to compute the final performance of models using embedding on the test and held-out set for the best models based on hyperparameter tuning. Also the specific configuration files are specified. 
+
+* Apart from this, the code used for the permutation analysis and the results can be found in the permutation analysis folder. 

@@ -1,0 +1,4 @@
+,Unnamed: 0,contains_embedding_layer,n_dense,dense_layer_size,learning_rate,dropout_rate,fit_batch_size,loss,optimizer,fit_epochs,embedding_vector_length,type_of_model
+0,0,False,1,32,0.01,0.0,32,binary_crossentropy,adam,200,32,gru
+1,1,False,1,32,0.01,0.0,64,binary_crossentropy,adam,200,32,gru
+2,2,False,1,32,0.01,0.0,128,binary_crossentropy,adam,200,64,gru
