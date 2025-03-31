@@ -1,4 +1,5 @@
-# %% [markdown]
+from runners.runner import run_model
+
 """
 # Example Model Runner Hyperparameter Space
 
@@ -8,9 +9,7 @@ It specifies the model name, hyperparameter space, encoding type, and whether to
 The results of the model training will be saved under the configuration folder named after the model name, encoding type, and batch normalization setting.
 """
 
-from runners.runner import run_model
 
-# %% [markdown]
 """Example CNN Model Configuration: 
 Specify the model name, hyperparameter space, encoding type, and batch normalization
 Model Name:
@@ -34,4 +33,3 @@ hyper_space = "../examples/hyperparameter_spaces/cnn_3_examples.csv"
 encoding = "ohe"
 batch_normalisation = True
 run_model(model_name, hyper_space, encoding, batch_normalisation)
-# %%
