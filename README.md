@@ -1,13 +1,13 @@
 # 14-3-3 BindSite
 
-Welcome to the official repository of 14-3-3 BindSite. The following steps will guide you how to reproduce the results of our study. 
+Welcome to the official repository of 14-3-3 BindSite. The following steps will help you reproduce and use our study's results. 
 
-[!INFO]
-You can also use our web application to predict binding sites and conduct a virtual mutation study: [https://14-3-3-bindsite.streamlit.app](https://14-3-3-bindsite.streamlit.app/).
+> [!TIP]
+> You can also use our web application to predict binding sites and conduct a virtual mutation study: [https://14-3-3-bindsite.streamlit.app](https://14-3-3-bindsite.streamlit.app/).
 
 ## Installation 
 
-First download this codebase by the download button (on the top-right corner), or clone the repository with the following command, if you have git installed:
+First, download this codebase by the download button (on the top-right corner), or clone the repository with the following command, if you have git installed:
 
 ```bash
 git clone https://github.com/molML/14-3-3-bindsite.git
@@ -18,8 +18,8 @@ We'll use `conda` to create an environment for the codebase. If you haven't used
 
 Afterward, start a terminal *in the (root) directory of the codebase* and type the following commands:
 
-[!IMPORTANT]
-A GPU is required for replicability.
+> [!IMPORTANT]
+> A GPU is required for replicability.
 
 ```bash
 conda create --name bindsite python==3.9.16
