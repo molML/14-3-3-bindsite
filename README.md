@@ -1,6 +1,6 @@
 # 14-3-3 BindSite
 
-Welcome to the official repository of 14-3-3 BindSite. The following steps will help you reproduce and use our study's results. 
+Welcome to the official repository of 14-3-3 BindSite. The following steps will help you reproduce and use our study's results. See our [publication](https://chemrxiv.org/engage/chemrxiv/article-details/67eadfe581d2151a02769974) for more information on the model.
 
 > [!TIP]
 > You can also use our web application to predict binding sites and conduct a virtual mutation study: [https://14-3-3-bindsite.streamlit.app](https://14-3-3-bindsite.streamlit.app/).
@@ -53,6 +53,12 @@ Thanks for visiting our repository! If you have any questions, please don't hesi
 If you use this codebase in your research, please consider citing our paper:
 
 ```bibtex
- Preprint in progress.
+@article{vanWeesep2025identifying,
+  title={Identifying 14-3-3 interactome binding sites with deep learning},
+  author={van Weesep, Laura and {\"O}z{\c{c}}elik, R{\i}za and Pennings, Marloes and Criscuolo, Emanuele and Ottmann, Christian and Brunsveld, Luc and Grisoni, Francesca},
+  year={2025},
+  journal={ChemRxiv},
+  doi={10.26434/chemrxiv-2025-18tn6}
+}
 ```
 
